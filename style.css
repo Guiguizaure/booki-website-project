@@ -452,7 +452,7 @@ body header{
         font-size: 15px;
     }
 }
-.fa-info{
+#sub-header-info i {
     border: 1px solid grey;
     border-radius: 50%;
     height: 15px;
@@ -464,7 +464,7 @@ body header{
     color: #0065FC;
 }
 @media screen and (max-width: 768px){
-    .fa-info{
+    #sub-header-info i {
         height: 20px;
         width: 24px;
         font-size: 12px;
