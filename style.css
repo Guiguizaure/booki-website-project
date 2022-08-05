@@ -79,7 +79,7 @@ body header{
 }
 @media screen and (max-width: 768px){
     #nav-header a:nth-child(1){
-        padding: 12px 43px;
+        padding: 12px 0px;
         border-bottom: #F2F2F2 3px solid;
     }
 }
@@ -89,7 +89,7 @@ body header{
 }
 @media screen and (max-width: 768px){
     #nav-header a:nth-child(2){
-        padding: 12px 63px;
+        padding: 12px 0px;
         border-bottom: #F2F2F2 3px solid;
     }
 }
