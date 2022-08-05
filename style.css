@@ -57,6 +57,7 @@ body header{
         min-width: 300px;
         display: flex;
         flex-wrap: nowrap;
+        width: 100%;
     }
 }
 /* ------------------------------------ */
@@ -64,6 +65,13 @@ body header{
     text-decoration: none;
     color: black;
     transition: 0s;
+}
+@media screen and (max-width: 768px){
+    #nav-header a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 /* ------------------------------------ */
 #nav-header a:nth-child(1){
