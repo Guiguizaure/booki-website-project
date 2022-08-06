@@ -535,7 +535,7 @@ span.strong{
     #hebergement-a-marseille{
         height: 97%;
         width: 47%;
-        max-width: auto;
+        
         min-height: auto;
         min-width: 410px;
         margin-left: 18px;
@@ -724,9 +724,6 @@ span.strong{
 @media screen and (max-width: 991px){
     #les-plus-populaires{
         min-width: 268px;
-        min-height: auto;
-        max-width: auto;
-        max-height: auto;
         margin-right: 18px;
         width: 35%;
     }
