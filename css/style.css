@@ -15,17 +15,34 @@ gris (fond) - #F2F2F2 */
     font-family: 'Raleway', sans-serif;
 }
 
+
+/* #bloc-page{
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+
 /*  ----------------------------------- HEADER */
+#bloc-header{
+    width: 100%;
+    margin: 0 auto;
+}
+
 body header{
     height: 80px;
-    width: 100%;
+    width: 990px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;
+}
+@media screen and (max-width: 991px){
+    body header{
+        width: auto;
+    }
 }
 @media screen and (max-width: 767px){
     body header{
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -35,7 +52,7 @@ body header{
 /* ----------------------------------- LOGO */
 #logo img{
     height: 35px;
-    padding-left: 38px;
+    padding-left: 20px;
 }
 @media screen and (max-width: 767px){
     #logo img{
@@ -118,9 +135,15 @@ body header{
 
 
 /* SUB-HEADER */ 
+#bloc-sub-header{
+    width: 100%;
+    margin: 0 auto;
+}
+
 #sub-header{
-    padding-left: 40px;
+    padding-left: 20px;
     margin: 20px auto;
+    width: 970px;
 }
 @media screen and (max-width: 991px){
     #sub-header{
@@ -229,7 +252,10 @@ body header{
     }
 }
 /* ------------------------------------ */
-.rechercher{
+
+
+/* ------------------------------------ */
+.btn-rechercher{
     border: black 0px solid;
     border-radius: 0 12px 12px 0;
     font-family: 'Raleway', sans-serif;
@@ -242,53 +268,29 @@ body header{
     justify-content: center;
     align-items: center;
     margin-left: -2px;
+    color: white;
 }
 @media screen and (max-width: 767px){
-    .rechercher{
+    .btn-rechercher{
         width: 50px;
         height: 50px;
         border-radius: 17px 17px 17px 17px;
         margin-left: -15px;
     }
 }
-/* .rechercher button, input[type="submit"]{
-    color: #ffffff;
-}
 @media screen and (max-width: 767px){
-    .rechercher button, input[type="submit"]{
+    span.rechercher{
         display: none;
     }
-} */
-
-/* ------------------------------------ */
-.rechercher a{
-    text-decoration: none;
-    color: white;
 }
-/* ------------------------------------ */
-.rechercher i{
+.btn-rechercher i{
     display: none;
 }
 @media screen and (max-width: 767px){
-    .rechercher i{
+    .btn-rechercher i{
         display: block;
         font-size: 16px;
         color: white;
-    }
-}
-/* ------------------------------------ */
-.rechercher button, input[type="submit"]{
-    background: none;
-	color: white;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-@media screen and (max-width: 767px){
-    .rechercher .btn-rechercher, input[type="submit"]{
-        display: none;
     }
 }
 
@@ -507,6 +509,7 @@ body header{
     height: 500px;
     display: flex;
     justify-content: center;
+    
 }
 @media screen and (max-width: 991px){
     #hebergements{
@@ -524,13 +527,14 @@ span.strong{
     font-weight: 500;
 }
 /* ------------------------------------ */
+
 #hebergement-a-marseille{
-    max-width: 650px;
-    min-height: 450px;
+    max-width: 500px;
+    min-height: 470px;
     min-width: 630px;
-    height: 66%;
-    width: 67%;
-    margin-left: 24px;
+    height: 68%;
+    /* width: 67%; */
+    margin-left: 0px;
     margin-right: 20px;
     background-color: #F2F2F2;
     padding: 0px 10px;
@@ -540,7 +544,6 @@ span.strong{
     #hebergement-a-marseille{
         height: 97%;
         width: 47%;
-        
         min-height: auto;
         min-width: 410px;
         margin-left: 18px;
@@ -595,7 +598,7 @@ span.strong{
 @media screen and (max-width: 767px){
     #images-hebergements{
         height: 1250px;
-        width: 102.5%;
+        width: 100%;
     }
 }
 /* ------------------------------------ */
@@ -606,11 +609,10 @@ span.strong{
     border: 3px solid white;
     border-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    width: 165px;
+    width: 160px;
     height: 140px;
     padding-right: 20px;
     margin-bottom: 20px;
-    margin-right: 10px;
     transition: 0.4s ease-out;
 }
 @media screen and (max-width: 767px){
@@ -629,7 +631,7 @@ span.strong{
 .hebergement-box > img{
     border-radius: 15px;
     height: 100px;
-    width: 185px;
+    width: 180px;
     object-fit: cover;
 }
 @media screen and (max-width: 767px){
@@ -682,6 +684,7 @@ span.strong{
     font-weight: 600;
     font-size: 15px;
     color: black;
+    padding-left: 15px;
 }
 @media screen and (max-width: 767px){
     .afficher-plus{
@@ -716,8 +719,8 @@ span.strong{
 
 /* ----------------------------------- LES HEBERGEMENT POPULAIRES */
 #les-plus-populaires{
-    min-width: 280px;
-    min-height: 450px;
+    min-width: 270px;
+    min-height: 470px;
     max-width: 280px;
     max-height: 578px;
     height: 66%;
@@ -796,7 +799,7 @@ span.strong{
 }
 /* ------------------------------------ */
 .populaire-box{
-    width: 85%;
+    width: 88%;
     height: 95px;
     border: 4px solid white;
     border-radius: 15px;
@@ -819,7 +822,7 @@ span.strong{
 .populaire-radius{
     border-radius: 14px 0 0 14px;
     height: 95px;
-    width: 98px;
+    width: 92px;
     object-fit: cover;
 }
 @media screen and (max-width: 767px){
@@ -831,7 +834,7 @@ span.strong{
 .populaire-radius-hotel-bleu-et-blanc{
     border-radius: 14px 0 0 14px;
     height: 95px;
-    width: 200px;
+    width: 178px;
     object-fit: cover;
 }
 @media screen and (max-width: 767px){
@@ -1198,7 +1201,6 @@ body footer{
     background: #F2F2F2;
     height: 200px;
     font-family: 'Raleway', sans-serif;
-    /* min-width: 1100px; */
 }
 @media screen and (max-width: 991px){
     body footer{
@@ -1218,8 +1220,9 @@ body footer{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    width: 940px;
     margin: 0 auto;
-    padding: 0 38px;
+    padding: 0 0px;
 }
 @media screen and (max-width: 991px){
     .footer-margin{
@@ -1232,6 +1235,7 @@ body footer{
         flex-wrap: wrap;
         width: 100%;
         height: 450px;
+        max-width: 600px;
         padding: 0 0px;
     }
 }
