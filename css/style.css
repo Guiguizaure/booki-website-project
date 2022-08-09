@@ -52,7 +52,7 @@ body header{
 /* ----------------------------------- LOGO */
 #logo img{
     height: 35px;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 @media screen and (max-width: 767px){
     #logo img{
@@ -141,7 +141,7 @@ body header{
 }
 
 #sub-header{
-    padding-left: 20px;
+    padding-left: 15px;
     margin: 20px auto;
     width: 970px;
 }
@@ -1015,7 +1015,7 @@ span.strong{
 }
 .activites-box-1 img{
     border-radius: 15px;
-    width: 225px;
+    width: 227px;
     height: 370px;
     object-fit: cover;
 }
@@ -1028,7 +1028,7 @@ span.strong{
 #activites-flex .activite-name-1{ 
     position: absolute;
     bottom: 0;
-    width: 195px;
+    width: 197px;
     background-color: #ffffff;
     padding: 15px 15px;
     border-radius: 0px 0px 15px 15px;
@@ -1046,7 +1046,7 @@ span.strong{
 }
 .activites-box-2 img{
     border-radius: 15px;
-    width: 225px;
+    width: 227px;
     height: 190px;
     object-fit: cover;
 }
@@ -1059,7 +1059,7 @@ span.strong{
 #activites-flex .activite-name-2{ 
     position: absolute;
     bottom: 0;
-    width: 195px;
+    width: 197px;
     background-color: #ffffff;
     padding: 15px 15px;
     border-radius: 0px 0px 15px 15px;
@@ -1077,7 +1077,7 @@ span.strong{
 }
 .activites-box-3 img{
     border-radius: 15px;
-    width: 225px;
+    width: 227px;
     height: 150px;
     object-fit: cover;
 }
@@ -1090,7 +1090,7 @@ span.strong{
 #activites-flex .activite-name-3{ 
     position: absolute;
     bottom: 0%;
-    width: 195px;
+    width: 197px;
     background-color: #ffffff;
     padding: 15px 15px;
     border-radius: 0px 0px 15px 15px;
@@ -1108,7 +1108,7 @@ span.strong{
 }
 .activites-box-4 img{
     border-radius: 15px;
-    width: 225px;
+    width: 227px;
     height: 370px;
     object-fit: cover;
 }
@@ -1121,7 +1121,7 @@ span.strong{
 #activites-flex .activite-name-4{ 
     position: absolute;
     bottom: 0%;
-    width: 195px;
+    width: 197px;
     background-color: #ffffff;
     padding: 15px 15px;
     border-radius: 0px 0px 15px 15px;
@@ -1139,7 +1139,7 @@ span.strong{
 }
 .activites-box-5 img{
     border-radius: 15px;
-    width: 225px;
+    width: 227px;
     height: 160px;
     object-fit: cover;
 }
@@ -1152,7 +1152,7 @@ span.strong{
 #activites-flex .activite-name-5{ 
     position: absolute;
     bottom: 0;
-    width: 195px;
+    width: 197px;
     background-color: #ffffff;
     padding: 15px 15px;
     border-radius: 0px 0px 15px 15px;
@@ -1170,7 +1170,7 @@ span.strong{
 }
 .activites-box-6 img{
     border-radius: 15px;
-    width: 225px;
+    width: 227px;
     height: 179px;
     object-fit: cover;
 }
@@ -1183,7 +1183,7 @@ span.strong{
 #activites-flex .activite-name-6{ 
     position: absolute;
     bottom: 0%;
-    width: 195px;
+    width: 197px;
     background-color: #ffffff;
     padding: 15px 15px;
     border-radius: 0px 0px 15px 15px;
