@@ -1,0 +1,73 @@
+@media screen and (max-width: 991px){
+    body header{
+        width: auto;
+    }
+
+    #sub-header{
+        width: auto;
+    }
+
+    #hebergements{
+        height: 650px;
+    }
+
+    #hebergement-a-marseille{
+        height: 97%;
+        width: 47%;
+        min-height: auto;
+        min-width: 410px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    #images-hebergements{
+        height: 82%;
+    }
+
+    #les-plus-populaires{
+        min-width: 268px;
+        margin-right: 18px;
+        width: 35%;
+    }
+
+    #images-populaires i{
+        margin-top: 18px;
+    }
+
+    #activites-a-marseille{
+        height: 850px;
+        margin: 20px 0;
+    }
+
+    #activites-a-marseille h2{
+        width: 465px;
+        padding: 10px 0px;
+    }
+
+    #activites-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        max-width: 767px;
+        height: 800px;
+        margin: 0 auto;
+        padding: 0 140px;
+        background: #ffffff;
+        border-radius: 15px;
+        min-width: auto;
+    }
+
+    body footer{
+        min-width: auto;
+    }
+
+    .footer-margin{
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    footer .footer-flex{
+        margin: 50px 45px 50px 50px;
+    }
+}
